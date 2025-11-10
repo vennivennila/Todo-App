@@ -2,15 +2,15 @@
 
 ## 📌 Description
 A simple Full-Stack Todo Application built using **Flask (Python)** for the backend and **React.js** for the frontend.  
-This app allows users to **add**, **view**, **update**, and **delete** todos.  
-It demonstrates the integration between RESTful APIs and a React client.
+This app allows users to add, view, update, and delete todos.
+It demonstrates the integration between RESTful APIs and a React client, with data temporarily stored in memory (resets when server restarts).
 
 ---
 
 ## ⚙️ Tech Stack
 - **Frontend:** React.js, Axios, Bootstrap  
-- **Backend:** Flask, Flask-CORS, SQLAlchemy  
-- **Database:** SQLite  
+- **Backend:** FastAPI, Uvicorn, Pydantic  
+- **Database:** In-memory Python list (no persistent database) 
 - **Languages:** Python, JavaScript  
 
 ---
@@ -21,13 +21,13 @@ Todo-App/
 │
 ├── backend/
 │   ├── app.py
-│   ├── models.py
 │   ├── requirements.txt
 │
 └── frontend/
     ├── src/
     ├── public/
     ├── package.json
+
 ```
 
 ---
@@ -85,8 +85,9 @@ Frontend runs on 👉 http://localhost:3000
 ## 🧾 Example Flow
 1. Run backend → Flask API starts at port 5000  
 2. Run frontend → React app starts at port 3000  
-3. React app communicates with backend using Axios  
-4. Data is stored and retrieved from SQLite database  
+3. React app communicates with backend using Axios
+4. Data is stored temporarily in memory (resets when server restarts)  
+ 
 
 ---
 
