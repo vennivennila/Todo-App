@@ -77,9 +77,10 @@ Frontend runs on 👉 http://localhost:3000
 
 ---
 ## 📸 Screenshots / Demo
-![Todo App Screenshot]("https://res.cloudinary.com/dmjwhclog/image/upload/v1762756772/Capture_ylq73b.png")
+![Todo App Screenshot](https://res.cloudinary.com/dmjwhclog/image/upload/v1762756772/Capture_ylq73b.png)
 
 
+---
 ## 🧾 Example Flow
 1. Run backend → Flask API starts at port 5000  
 2. Run frontend → React app starts at port 3000  
