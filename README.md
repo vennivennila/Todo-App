@@ -77,7 +77,9 @@ Frontend runs on 👉 http://localhost:3000
 
 ---
 ## 📸 Screenshots / Demo
-![Todo App Screenshot](https://res.cloudinary.com/dmjwhclog/image/upload/v1762756772/Capture_ylq73b.png)
+
+<img src="https://res.cloudinary.com/dmjwhclog/image/upload/v1762756772/Capture_ylq73b.png" width="400" />
+
 
 
 ---
