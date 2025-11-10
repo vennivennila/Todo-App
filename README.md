@@ -1,82 +1,96 @@
-# Todo Application
+# 📝 Todo App — Full Stack Project
 
-Full-stack Todo app with Python backend and React frontend.
+## 📌 Description
+A simple Full-Stack Todo Application built using **Flask (Python)** for the backend and **React.js** for the frontend.  
+This app allows users to **add**, **view**, **update**, and **delete** todos.  
+It demonstrates the integration between RESTful APIs and a React client.
 
-## Features
+---
 
-- Create, view, update, and delete todos
-- Mark todos as complete
-- Simple and clean interface
+## ⚙️ Tech Stack
+- **Frontend:** React.js, Axios, Bootstrap  
+- **Backend:** Flask, Flask-CORS, SQLAlchemy  
+- **Database:** SQLite  
+- **Languages:** Python, JavaScript  
 
-## Setup
+---
 
-### Backend (Python)
+## 🏗️ Folder Structure
+```
+Todo-App/
+│
+├── backend/
+│   ├── app.py
+│   ├── models.py
+│   ├── requirements.txt
+│
+└── frontend/
+    ├── src/
+    ├── public/
+    ├── package.json
+```
 
-1. Go to backend folder:
-   ```bash
-   cd backend
-   ```
+---
 
-2. Create virtual environment:
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate
-   ```
+## 🧩 Setup Instructions
 
-3. Install packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🔹 Backend Setup
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate      # For Windows
+# or source venv/bin/activate   # For Mac/Linux
+pip install -r requirements.txt
+python app.py
+```
+Backend runs on 👉 http://localhost:5000
 
-4. Run server:
-   ```bash
-   python main.py
-   ```
-   Server runs on http://localhost:8000
+---
 
-### Frontend (React)
+### 🔹 Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
+```
+Frontend runs on 👉 http://localhost:3000
 
-1. Open new terminal, go to frontend folder:
-   ```bash
-   cd frontend
-   ```
+---
 
-2. Install packages:
-   ```bash
-   npm install
-   ```
+## 🔗 API Endpoints
 
-3. Start app:
-   ```bash
-   npm start
-   ```
-   App opens at http://localhost:3000
+| Method | Endpoint    | Description     |
+|---------|-------------|-----------------|
+| GET     | /todos      | Fetch all todos |
+| POST    | /todos      | Add a new todo  |
+| PUT     | /todos/id   | Update a todo   |
+| DELETE  | /todos/id   | Delete a todo   |
 
-## How to Run
+---
 
-1. Start backend first (Terminal 1):
-   ```bash
-   cd backend
-   python main.py
-   ```
+## 🧠 Features
+✅ Add, update, and delete todos  
+✅ Responsive user interface  
+✅ Integrated Flask REST API  
+✅ Clean and modular folder structure  
+✅ Simple, clear, and beginner-friendly setup  
 
-2. Start frontend (Terminal 2):
-   ```bash
-   cd frontend
-   npm start
-   ```
+---
 
-3. Use the app in your browser
+## 🧾 Example Flow
+1. Run backend → Flask API starts at port 5000  
+2. Run frontend → React app starts at port 3000  
+3. React app communicates with backend using Axios  
+4. Data is stored and retrieved from SQLite database  
 
-## API Endpoints
+---
 
-- GET /api/todos - Get all todos
-- POST /api/todos - Create todo
-- PUT /api/todos/{id} - Update todo
-- DELETE /api/todos/{id} - Delete todo
+## 🧑‍💻 Author
+**Your Name**  
+📧 Email: yourname@gmail.com  
+🔗 GitHub: [https://github.com/yourusername](https://github.com/yourusername)
 
-## Technologies
+---
 
-- Backend: FastAPI, Python
-- Frontend: React, Axios
-
+## 📅 Submission
+This project is developed as part of the **Dr. Reddy’s Foundation — Full Stack Practical Task (Round 2).**
