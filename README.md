@@ -76,6 +76,9 @@ Frontend runs on 👉 http://localhost:3000
 ✅ Simple, clear, and beginner-friendly setup  
 
 ---
+## 📸 Screenshots / Demo
+![Todo App Screenshot]("https://res.cloudinary.com/dmjwhclog/image/upload/v1762756772/Capture_ylq73b.png")
+
 
 ## 🧾 Example Flow
 1. Run backend → Flask API starts at port 5000  
@@ -86,11 +89,8 @@ Frontend runs on 👉 http://localhost:3000
 ---
 
 ## 🧑‍💻 Author
-**Your Name**  
-📧 Email: yourname@gmail.com  
-🔗 GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+**VENNILA**  
+📧 Email: vennilavennila472@gmail.com  
+🔗 GitHub: [https://github.com/vennivennila](https://github.com/vennivennila)
 
 ---
-
-## 📅 Submission
-This project is developed as part of the **Dr. Reddy’s Foundation — Full Stack Practical Task (Round 2).**
