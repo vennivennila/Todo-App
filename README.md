@@ -38,8 +38,7 @@ Todo-App/
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate      # For Windows
-# or source venv/bin/activate   # For Mac/Linux
+venv\Scripts\activate      
 pip install -r requirements.txt
 python app.py
 ```
